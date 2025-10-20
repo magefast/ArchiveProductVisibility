@@ -2,6 +2,10 @@
   "name": "strekoza/module-archive-visibility",
   "description": "Magento 2 extension. Archive Visibility type for Products",
   "minimum-stability": "dev",
+  "type": "magento2-module",
+  "require": {
+    "magento/framework": "*"
+  },
   "license": "proprietary",
   "authors": [
     {
@@ -9,8 +13,6 @@
       "email": "magefast@gmail.com"
     }
   ],
-  "require": {
-  },
   "autoload": {
     "files": [ "registration.php" ],
     "psr-4": {
